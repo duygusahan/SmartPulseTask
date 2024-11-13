@@ -72,10 +72,10 @@ namespace SmartPulseTask.WebUi.Controllers
                     throw new FormatException("Geçersiz kontrat formatı");
 
                 // Yıl, ay, gün ve saat parçalarını al ve parse et
-                int year = int.Parse("20" + contractName.Substring(2, 2)); // "24" -> 2024
-                int month = int.Parse(contractName.Substring(4, 2));       // "11" -> Kasım
-                int day = int.Parse(contractName.Substring(6, 2));         // "12" -> 12. gün
-                int hour = int.Parse(contractName.Substring(8, 2));        // "09" -> 09:00 saat
+                int year = int.Parse("20" + contractName.Substring(2, 2)); 
+                int month = int.Parse(contractName.Substring(4, 2));      
+                int day = int.Parse(contractName.Substring(6, 2));         
+                int hour = int.Parse(contractName.Substring(8, 2));        
 
                 // DateTime nesnesini oluştur ve geri döndür
                 return new DateTime(year, month, day, hour, 0, 0);
