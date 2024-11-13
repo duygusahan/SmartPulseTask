@@ -67,7 +67,7 @@ namespace SmartPulseTask.WebUi.Services
             //    $"https://seffaflik.epias.com.tr/electricity-service/v1/markets/idm/data/transaction-history?endDate={endDate}&startDate={startDate}",
             //    jsonContent);
 
-            //bu örnek olsun diye burada dursun bunu kullanıcaksın hızlı çalışabilmek için üsttekini kullanıcam..
+            
 
             // İstek başarılı ise gelen veriyi deserialize ediyoruz
             if (epiasResponse.IsSuccessStatusCode)
