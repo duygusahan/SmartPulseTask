@@ -63,9 +63,7 @@ namespace SmartPulseTask.WebUi.Services
                 "https://seffaflik.epias.com.tr/electricity-service/v1/markets/idm/data/transaction-history?endDate=2022-09-11&startDate=2024-09-10",
                 jsonContent);
 
-            //var epiasResponse = await _httpClient.PostAsync(
-            //    $"https://seffaflik.epias.com.tr/electricity-service/v1/markets/idm/data/transaction-history?endDate={endDate}&startDate={startDate}",
-            //    jsonContent);
+         
 
             
 
