@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartPulseTask.WebUi", "SmartPulseTask.WebUi\SmartPulseTask.WebUi.csproj", "{FBCD6857-74FF-4796-A3E3-B18CCD8EC897}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBCD6857-74FF-4796-A3E3-B18CCD8EC897}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBCD6857-74FF-4796-A3E3-B18CCD8EC897}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBCD6857-74FF-4796-A3E3-B18CCD8EC897}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBCD6857-74FF-4796-A3E3-B18CCD8EC897}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3398168F-4312-4374-BA49-28EBAC9E1721}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,31 @@
+﻿@using SmartPulseTask.WebUi.Dtos
+
+@model List<SmartPulseTask.WebUi.Models.ContractSummary>
+
+<h2>Contract Summary</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+           
+            <th>Tarih</th>
+            <th>Toplam İşlem Tutarı</th>
+            <th>Toplam İşlem Miktarı</th>
+            <th>Ağırlıklı Ortalama Fiyat</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        { 
+            <tr>
+                
+                <td>@item.DateTime.ToString("dd/MM/yyyy HH:mm")</td>
+                <td>@item.TotalAmount</td>
+                <td>@item.TotalQuantity</td>
+                <td>@item.WeightedAveragePrice</td>
+            </tr> 
+        }
+    </tbody>
+</table>
+
+

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\SmartPulseTask.WebUi.props" />
+</Project>
